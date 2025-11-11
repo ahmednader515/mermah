@@ -405,7 +405,10 @@ const UsersPage = () => {
                                             </Badge>
                                         </TableCell>
                                         <TableCell>
-                                            <Badge variant="secondary">
+                                            <Badge 
+                                                variant="secondary"
+                                                className="bg-emerald-100 text-black border border-emerald-200 dark:bg-emerald-400/30 dark:text-emerald-50"
+                                            >
                                                 {user.balance} جنيه
                                             </Badge>
                                         </TableCell>
