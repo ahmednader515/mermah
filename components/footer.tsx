@@ -30,50 +30,7 @@ export const Footer = () => {
             : ''
         }`}>
           <div className="inline-block bg-primary/10 border-2 border-primary/20 rounded-lg px-6 py-3 mb-4">
-            <p className="font-semibold text-lg text-primary"> واتساب : 01091659219</p>
-          </div>
-          
-          {/* Social Media Section */}
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-primary mb-4">تابعنا على وسائل التواصل الاجتماعي</h3>
-            <div className="flex justify-center gap-4">
-              <a 
-                href="https://www.facebook.com/share/178KpYmB2u/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-3 bg-primary/10 hover:bg-primary/20 rounded-full transition-colors duration-200"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-6 h-6 text-primary" />
-              </a>
-              <a 
-                href="https://www.instagram.com/sheha_bezz38gmailcom?igsh=MTRqOHVkZ3F5bWowbQ==" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-3 bg-primary/10 hover:bg-primary/20 rounded-full transition-colors duration-200"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-6 h-6 text-primary" />
-              </a>
-              <a 
-                href="https://www.tiktok.com/@shehabezz777?_t=ZS-8zJai5mKOG8&_r=1" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-3 bg-primary/10 hover:bg-primary/20 rounded-full transition-colors duration-200"
-                aria-label="TikTok"
-              >
-                <TikTokIcon className="w-6 h-6 text-primary" />
-              </a>
-              <a 
-                href="https://wa.me/201091659219"
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-3 bg-primary/10 hover:bg-primary/20 rounded-full transition-colors duration-200"
-                aria-label="WhatsApp"
-              >
-                <MessageCircle className="w-6 h-6 text-primary" />
-              </a>
-            </div>
+            <p className="font-semibold text-lg text-primary"> للتواصل : 01098779075 - 01555577607</p>
           </div>
           
           <p>© {new Date().getFullYear()} Mordesu Studio. جميع الحقوق محفوظة</p>

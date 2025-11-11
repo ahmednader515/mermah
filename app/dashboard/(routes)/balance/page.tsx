@@ -134,6 +134,31 @@ export default function BalancePage() {
         </CardContent>
       </Card>
 
+      {/* Instapay info for students */}
+      {isStudent && (
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-lg font-semibold">
+              طريقة شحن الرصيد للطلاب
+            </CardTitle>
+            <CardDescription>
+              يمكنك تحويل المبلغ عبر Instapay للحساب التالي ثم التواصل مع المدرس لتأكيد الإضافة
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-2 text-sm leading-6">
+            <div className="flex flex-col gap-1">
+              <span className="font-medium text-foreground">Instapay:</span>
+              <span className="text-primary text-base font-bold">
+                01098779075
+              </span>
+            </div>
+            <p className="text-muted-foreground text-xs">
+              بعد التحويل، الرجاء إرسال إيصال الدفع إلى المدرس ليتم إضافة الرصيد لحسابك في أقرب وقت.
+            </p>
+          </CardContent>
+        </Card>
+      )}
+
       {/* Add Balance Section - Only for non-students */}
       {!isStudent && (
         <Card>
