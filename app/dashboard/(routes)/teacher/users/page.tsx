@@ -431,7 +431,7 @@ const UsersPage = () => {
                                         <TableCell>
                                             <Badge 
                                                 variant="secondary"
-                                                className="bg-sky-600 text-white hover:bg-sky-700"
+                                                className="bg-sky-100 text-black border border-sky-200 dark:bg-sky-500/30 dark:text-sky-100"
                                             >
                                                 طالب
                                             </Badge>

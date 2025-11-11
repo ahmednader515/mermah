@@ -212,11 +212,14 @@ const AddCoursesPage = () => {
                                         {user.fullName}
                                     </TableCell>
                                     <TableCell>{user.phoneNumber}</TableCell>
-                                    <TableCell>
-                                        <Badge variant="secondary">
-                                            طالب
-                                        </Badge>
-                                    </TableCell>
+                                <TableCell>
+                                    <Badge 
+                                        variant="secondary"
+                                        className="bg-sky-100 text-black border border-sky-200 dark:bg-sky-500/30 dark:text-sky-100"
+                                    >
+                                        طالب
+                                    </Badge>
+                                </TableCell>
                                     <TableCell>
                                         <Badge variant="outline">{user._count?.purchases ?? 0}</Badge>
                                     </TableCell>

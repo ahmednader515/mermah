@@ -214,7 +214,10 @@ const TeacherAddCoursesPage = () => {
                                     </TableCell>
                                     <TableCell>{user.phoneNumber}</TableCell>
                                     <TableCell>
-                                        <Badge variant="secondary">
+                                        <Badge 
+                                            variant="secondary"
+                                            className="bg-sky-100 text-black border border-sky-200 dark:bg-sky-500/30 dark:text-sky-100"
+                                        >
                                             طالب
                                         </Badge>
                                     </TableCell>
